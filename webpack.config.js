@@ -86,18 +86,6 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"]
       },
       {
-        test: /.(ttf|otf|eot|png|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        use: [
-            {
-                loader: 'file-loader',
-                options: {
-                    outputPath: 'fonts/',
-                    name: '[name][hash].[ext]'
-                }
-            }
-        ]
-      },
-      {
         test: /\.(ttf|eot|svg|gif|jpg|png|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         use: [
           {
