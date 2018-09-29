@@ -1,3 +1,50 @@
 .primary-header {
-    background: #243763;
+    .header__logo {
+        background: #243763;
+        position: relative;
+
+        & > img {
+            margin-top: 200px;
+        }
+
+        .logo {
+            position: absolute;
+            width: 51px;
+            height: 67px;
+            left: 0;
+            top: 0;
+            background-image: url('../../../images/logo.png');
+            background-size: 51px 67px;
+            background-color: #243763;
+            background-repeat: no-repeat;
+        }
+
+        & > h2.text1 {
+            position: absolute;
+            left: 20%;
+            top: 37%;
+            font-size: 50px;
+            color: #fff;
+            font-family: Myriad Pro;
+        }
+    }
+
+    & > h3.text2 {
+        font-size: 40px;
+        margin-top: 30px;
+        display: block;
+        color: #363b44;
+        font-family: Myriad Pro;
+        text-align: center;
+    }
+
+    .btn-apply {
+        width: 201px;
+        height: 44px;
+        background: #243763;
+        font-size: 20px;
+        display: block;
+        margin: 10px auto;
+    }
+
 }

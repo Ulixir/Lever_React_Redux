@@ -1,1 +1,22 @@
 @import "../base/mixin";
+
+.home-container {
+    .mission-block {
+        background: #ebf4f8;
+        padding: 40px 40px 0 40px;
+        margin-top: 42px;
+
+        h3 {
+            color: #363b44;
+            text-align: center;
+        }
+
+        p {
+            color: #363b44;
+            font-size: 26px;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
