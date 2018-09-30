@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import '../assets/stylesheets/components/PrimaryLayout.scss';
 import HomePage from './HomePage';
 import PrimaryHeader from './Header/PrimaryHeader';
+import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

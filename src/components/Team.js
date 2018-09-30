@@ -25,7 +25,7 @@ class Team extends React.Component {
         return (
             <div className="team-container">
                 <h3>Meet Our Team</h3>
-                <div className="row">
+                <div className="row" style={{ marginBottom: '50px' }}>
                     <div className="col-md-4">
                         <div className="person">
                             <img src={face01} />
@@ -35,7 +35,7 @@ class Team extends React.Component {
                                 Sold shareware online at age 13,
                                 and long-time Burner.
                             </p>
-                            <NavLink to="#" exact activeClassName="active" style={{ 'margin-right': '10px' }}>homepage</NavLink>
+                            <NavLink to="#" exact activeClassName="active" style={{ marginRight: '10px' }}>homepage</NavLink>
                             <NavLink to="#" exact activeClassName="active">linkedin</NavLink>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ class Team extends React.Component {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row" style={{ marginBottom: '50px' }}>
                     <div className="col-md-4">
                         <div className="person">
                             <img src={face04} />
@@ -107,7 +107,7 @@ class Team extends React.Component {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row" style={{ marginBottom: '50px' }}>
                     <div className="col-md-4">
                         <div className="person">
                             <img src={face07} />
@@ -151,7 +151,7 @@ class Team extends React.Component {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row" style={{ marginBottom: '50px' }}>
                     <div className="col-md-4">
                         <div className="person">
                             <img src={face10} />

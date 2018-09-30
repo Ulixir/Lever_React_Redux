@@ -2,6 +2,7 @@ import React from 'react';
 import { IndexLink } from 'react-router';
 import '../assets/stylesheets/components/HomePage.scss';
 import About from './About';
+import Benefit from './Benefit';
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -17,6 +18,7 @@ class HomePage extends React.Component {
                     <p>programming so software developers can revolutionize the world faster.</p>
                 </div>
                 <About />
+                <Benefit />
             </div>
         );
     }

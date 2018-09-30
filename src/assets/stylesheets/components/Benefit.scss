@@ -1,0 +1,25 @@
+.benefit-container {
+    margin-top: 150px;
+
+    h3 {
+        font-family: 'Myriad Pro Regular';
+        color: #363b44;
+        font-size: 24px;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .benefit-item {
+        width: 80%;
+
+        img {
+            margin-right: 20px;
+        }
+
+        span {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 18px;
+        }
+    }
+}

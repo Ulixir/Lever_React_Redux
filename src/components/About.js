@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import '../assets/stylesheets/components/About.scss';
 import Team from './Team';
+import Life from './Life';
 
 const About = props => {
     return (
@@ -66,6 +67,7 @@ const About = props => {
                 </p>
             </div>
             <Team />
+            <Life />
         </div>
     );
 }

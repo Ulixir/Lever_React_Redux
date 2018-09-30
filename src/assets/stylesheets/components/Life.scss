@@ -1,0 +1,45 @@
+.life-container {
+    h3 {
+        font-family: 'Myriad Pro Regular';
+        color: #363b44;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .slider {
+        position: relative;
+        height: 200px;
+
+        .slick-prev {
+            position: absolute;
+            left: 0;
+            top: 107px;
+            width: 27px;
+            height: 57px;
+            z-index: 1;
+        }
+
+        .slick-next {
+            position: absolute;
+            right: 0;
+            top: 107px;
+            width: 27px;
+            height: 57px;
+            z-index: 1;
+        }
+
+        .slick-list {
+            height: 200px;
+        }
+
+        .slick-slide {
+            img {
+                padding: 10px;
+            }
+        }
+
+        .slick-slide {
+            width: 305px !important;
+        }
+    }
+}
