@@ -1,0 +1,42 @@
+.team-container {
+    h3 {
+        font-family: 'Myriad Pro Regular';
+        color: #363b44;
+        font-size: 24px;
+    }
+
+    .person {
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+
+        h4 {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        h5 {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        a {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.about-container {
+    margin: 113px 56px;
+
+    h3 {
+        text-align: center;
+        font-family: 'Myriad Pro Regular';
+        font-size: 24px;
+        color: #363b44;
+    }
+
+    div > div > h4 {
+        text-align: center;
+        font-family: 'Myriad Pro Regular';
+        font-size: 20px;
+        color: #363b44;
+        padding: 20px;
+    }
+
+    div > div > p {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Myriad Pro Regular';
+        color: #363b44;
+    }
+
+    .about-item {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .why-we-here {
+        margin-top: 40px;
+
+        h3 {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 18px;
+            padding: 0px 30px;
+        }
+    }
+
+    .poster {
+        background: #d8eaf2;
+        padding: 59px 142px 30px 142px;
+
+        h3 {
+            font-size: 30px;
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            padding: 0;
+            margin: 0;
+        }
+
+        h3:nth-child(2) {
+            text-align: right;
+        }
+
+        p {
+            color: #363b44;
+            font-size: 18px;
+            font-family: 'Myriad Pro Regular';
+            text-align: right;
+        }
+    }
+
+    .who-we-are {
+        margin-top: 100px;
+
+        h3 {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            font-family: 'Myriad Pro Regular';
+            color: #363b44;
+            font-size: 18px;
+            padding: 0px 30px;
+        }
+    }
+}

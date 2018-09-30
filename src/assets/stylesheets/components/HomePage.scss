@@ -3,12 +3,14 @@
 .home-container {
     .mission-block {
         background: #ebf4f8;
-        padding: 40px 40px 0 40px;
+        padding: 50px 10px 0 10px;
         margin-top: 42px;
 
         h3 {
             color: #363b44;
             text-align: center;
+            font-family: 'Myriad Pro Regular';
+            font-size: 24px;
         }
 
         p {
@@ -17,6 +19,8 @@
             text-align: center;
             padding: 0;
             margin: 0;
+            font-family: 'Myriad Pro Regular';
+            font-size: 20px;
         }
     }
 }

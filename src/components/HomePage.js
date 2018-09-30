@@ -1,7 +1,7 @@
 import React from 'react';
 import { IndexLink } from 'react-router';
 import '../assets/stylesheets/components/HomePage.scss';
-// import About from './About';
+import About from './About';
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -16,7 +16,7 @@ class HomePage extends React.Component {
                     <p>Kite is using machine learning to automate away the tedious parts of</p>
                     <p>programming so software developers can revolutionize the world faster.</p>
                 </div>
-                {/* <About /> */}
+                <About />
             </div>
         );
     }
