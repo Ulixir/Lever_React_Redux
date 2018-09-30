@@ -43,6 +43,15 @@
         font-size: 20px;
         display: block;
         margin: 10px auto;
-    }
 
+        a {
+            color: #fff !important;
+            text-decoration: none !important;
+
+            &:hover {
+                text-decoration: none !important;
+                color: #fff !important;
+            }
+        }
+    }
 }
