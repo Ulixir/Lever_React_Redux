@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "server": "webpack-dev-server --env .env --watch --colors",
+    "start": "webpack-dev-server --env .env --watch --colors",
     "build": "webpack --config webpack.config.js",
     "heroku-postbuild": "npm run build"
   },
