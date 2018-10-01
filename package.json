@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack-dev-server --env .env --watch --colors && node server.js",
+    "start": "webpack-dev-server --watch --colors && node server.js",
+    "prod": "./node_modules/webpack/bin/webpack.js --watch --colors && node server.js",
     "build": "webpack --config webpack.config.js",
     "heroku-postbuild": "npm run build"
   },
