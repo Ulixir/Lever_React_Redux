@@ -1,0 +1,1 @@
+web: webpack-dev-server --env .env --watch --colors
